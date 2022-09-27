@@ -12,7 +12,7 @@ jobs:
     name: Terraform
     runs-on:  ubuntu-latest
     env:
-      RG: us-east-1
+      RG: US East
   
 
     
