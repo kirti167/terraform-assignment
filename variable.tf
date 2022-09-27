@@ -1,7 +1,7 @@
 variable "user_names" {
   description = "IAM usernames"
   type        = set(string)
-  default     = ["user1", "user2", "user3"]
+  default     = ["user6", "user8", "user7"]
 }
 
 variable "abc" {
