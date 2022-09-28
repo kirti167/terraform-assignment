@@ -38,10 +38,10 @@ jobs:
 
           aws-region: ${{ env.aws-region }} 
 
-      - name: Terraform Init
-        id: init
-        run:
-          terraform init
+      # - name: Terraform Init
+      #   id: init
+      #   run:
+      #     terraform init
 
 
       - name: Terraform Destroy
